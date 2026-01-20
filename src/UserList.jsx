@@ -88,7 +88,7 @@ function UserList() {
                   {/* User Info */}
                   <div className="flex-1 mb-4 md:mb-0">
                     <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-slate-200 rounded-full flex items-center justify-center flex-shrink-0">
+                      <div className="w-12 h-12 bg-slate-200 rounded-full flex items-center justify-center shrink-0">
                         <span className="text-slate-700 font-semibold text-lg">
                           {user.name
                             .split(" ")
